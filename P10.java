@@ -1,3 +1,4 @@
+//CheckingStringIf ? palindrome : not palindrome
 import java.util.Scanner;
 
 class P10{
