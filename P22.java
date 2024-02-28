@@ -1,3 +1,4 @@
+//RemovingEvenNumber -> Manipulating size of Array[] by numEntries
 import java.util.ArrayList;
 import java.util.Arrays;
 
