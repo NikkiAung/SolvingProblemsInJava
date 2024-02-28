@@ -1,3 +1,4 @@
+//FindingLongestPalidromeWordFrom UserInput(String)
 import java.util.Scanner;
 
 class P19{
