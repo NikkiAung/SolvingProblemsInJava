@@ -1,3 +1,5 @@
+//UsingArrayListConceptToSolveTheLinkList(#leetcode) since I haven't learnt LinkList concept, 
+//It was really fun tho, knowing that I can apply what I have to thing I haven't never seen or experienced before.
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
