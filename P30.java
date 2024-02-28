@@ -1,5 +1,5 @@
 //AllLinkListConcept -> insertFirst -> insertLast -> insertByPosition -> reverse
-
+//#dataStructure&Algorithm
 public class P30 {
     private ListNode head;
     
