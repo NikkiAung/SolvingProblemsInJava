@@ -1,3 +1,4 @@
+//RemovingZeroToRight
 import java.util.Arrays;
 
 class P25{
