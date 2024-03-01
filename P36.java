@@ -1,3 +1,7 @@
+//#1 -> using HashMap concept to store the input data and update regarding to its rule
+//#2 -> using Alphabetical rule and updates its position val by 1(magazine), then substract if looping with ransomNote positiion val > 0
+
+//#1
 import java.util.HashMap;
 import java.util.Map;
 class P36{
@@ -25,6 +29,31 @@ class P36{
         }
         return false;
 
+    }
+    public static void main(String args[]){
+        String ransomNote = "aa";
+        String magazine = "aab";
+        System.out.println(canConstruct(ransomNote, magazine));
+    }
+}
+
+
+
+//#2
+class Tester1{
+
+    public static boolean canConstruct(String ransomNote, String magazine){
+        int[] charCounts = new int[26];
+        for(char c : magazine.toCharArray()){
+            charCounts[c-'a']++;
+        }
+        for(char c : ransomNote.toCharArray()){
+            if(!(charCounts[c-'a'] > 0)){
+                return false;
+            }else{
+                charCounts[c-'a']--;
+            }
+        }return true;
     }
     public static void main(String args[]){
         String ransomNote = "aa";
