@@ -30,7 +30,7 @@ class P35 {
 
 
 //#2
-/*
+
 class Tester1{
     public static int apple(int n){
         int remainder = n%4;
@@ -43,10 +43,10 @@ class Tester1{
         System.out.println(cost);
     }
 }
-*/
+
 
 //#3
-/*
+
 class Tester1{
     public static int apple(int n){
         int remainder = n%4;
@@ -65,4 +65,3 @@ class Tester1{
         System.out.println(cost);
     }
 }
-*/
