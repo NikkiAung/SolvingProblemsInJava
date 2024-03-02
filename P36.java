@@ -1,6 +1,6 @@
 //#1 -> using HashMap concept to store the input data and update regarding to its rule
 //#2 -> using Alphabetical rule and updates its position val by 1(magazine), then substract if looping with ransomNote positiion val > 0
-//#3 -> Similar Concept with #1 apporach but with contract style, using map.put(ch, map.getOrDefault(0)+1)
+//#3 -> Similar Concept with #1 apporach but with contract style, using map.put(ch, map.getOrDefault(ch,0)+1)
 
 
 //#1
