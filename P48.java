@@ -1,4 +1,8 @@
 //finding Missing Number After selection sort
+
+//#1 is my own logical apporach to problem while #2 is based on mathematical concept#crd
+
+//#1
 class P48{
     public static int findingMissingNum(int[] nums){
         //int miniIndex = 0;
@@ -23,6 +27,23 @@ class P48{
     }
     public static void main(String args[]){
         int[] nums = {2,4,1,8,6,3,7};
+        System.out.println(findingMissingNum(nums));
+    }
+}
+
+//#2
+class Tester1{
+
+    public static int findingMissingNum(int[] nums){
+        int n = nums.length+1;
+        int sum = n*(n+1)/2;
+        for(int no : nums ){
+            sum = sum - no;
+
+        }return sum;
+    }
+    public static void main(String args[]){
+        int[] nums = {2,4,1,8,6,3,7}; 
         System.out.println(findingMissingNum(nums));
     }
 }
