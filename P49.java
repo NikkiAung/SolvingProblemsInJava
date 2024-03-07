@@ -1,4 +1,4 @@
-//Finding Concatenation Of Numbers
+//Outputing Concatenation Of Numbers From Array #leetcode
 import java.util.Arrays; 
 
 class P49 {
